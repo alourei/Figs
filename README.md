@@ -10,4 +10,4 @@ To plot the figure just type:
 
 You should get the following canvas:
 
-    ![Fig7](Fig7.png)
+![Fig7](./Fig7.png)
