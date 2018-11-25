@@ -1,5 +1,3 @@
-//void Chart(Int_t x1=-5,Int_t y1=-5,Int_t x2=180,Int_t y2=120){
-//void Chart(Int_t x1=35,Int_t y1=30,Int_t x2=100,Int_t y2=60){
 void Chart(Char_t *filename,Int_t x1=50,Int_t y1=33,Int_t x2=100,Int_t y2=59){
   //TCanvas *c=new TCanvas("c","Chart of Nuclides",700,415);
   //TCanvas *c=new TCanvas("c","Chart of Nuclides");
@@ -178,7 +176,7 @@ void read_XS(Char_t *file_name){
   if(in)cout<<"FILE opened"<<endl;
   while(!in->eof()){
     *in>>z[j]>>a[j]>>xs[j];
-    cout<<z[j]<<a[j]<<xs[j]<<endl;
+    //cout<<z[j]<<" "<<a[j]<<" "<<xs[j]<<endl;
     j++;
   }
   for(Int_t k=0;k<j-1;k++){
