@@ -1,15 +1,7 @@
-# Macro for plotting fission observables #
+# Macro for plotting fission Related Figures #
 
 ##David Perez Loureiro##
 
-The data folder contains the data files to be plotted.
+Each folder contains the ROOT macros required to obtain the corresponding figure on the paper
 
-The slopes.C macro calculates the derivatives and plot them
-
-To plot the figure just type:
-
-`$root plot_fig7.C` on a terminal.
-
-You should get the following canvas:
-
-![Fig7](./Fig7.png)
+Follow the onstructions on each  README file to run them and produce the figures
